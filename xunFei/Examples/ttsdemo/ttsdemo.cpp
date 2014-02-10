@@ -170,9 +170,9 @@ int main(int argc, char* argv[])
 	const char* text1  = "身份识别成功";
 	const char*  filename1 = "text_to_speech_test_1.wav";
 	const char* param1 = "ssm=1,auf=audio/L16;rate=16000,vcn=xiaoyan,tte=UTF8";
-	const char* text2  = "欢迎主人回家。";
+	const char* text2  = "现在的室内温度为：11.2摄氏度";
 	const char*  filename2 = "text_to_speech_test_2.wav";
-	const char* param2 = "ssm=1,auf=audio/L16;rate=16000,vcn=vixl,tte=UTF8";
+	const char* param2 = "ssm=1,auf=audio/L16;rate=16000,vcn=xiaoyan,tte=UTF8";
 	int ret = 0;
 	char key = 0;
 
