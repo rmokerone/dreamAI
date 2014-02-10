@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BASEDIR	Makefile	/^export BASEDIR=$(PWD)\/..\/..\/prj$/;"	m
+FALSE	ttsdemo.cpp	11;"	d	file:
+LIBS	Makefile	/^LIBS	:= -L$(BASEDIR-BIN) -lmsc -ldl -lpthread$/;"	m
+LOCAL_FLAGS	Makefile	/^LOCAL_FLAGS	= $(LOCAL_INCLUDE) $(PIC_FLAG)$/;"	m
+LOCAL_INCLUDE	Makefile	/^LOCAL_INCLUDE	= -I$(BASEDIR)\/..\/include$/;"	m
+MODULE_EXEC	Makefile	/^MODULE_EXEC	= ttsdemo$/;"	m
+MODULE_OBJ	Makefile	/^MODULE_OBJ   = \\$/;"	m
+MODULE_TARGET	Makefile	/^MODULE_TARGET	= $(MODULE_EXEC)$/;"	m
+SR_DWORD	ttsdemo.cpp	/^typedef int SR_DWORD;$/;"	t	file:
+SR_WORD	ttsdemo.cpp	/^typedef short int SR_WORD ;$/;"	t	file:
+TRUE	ttsdemo.cpp	10;"	d	file:
+avg_bytes_per_sec	ttsdemo.cpp	/^	SR_DWORD        avg_bytes_per_sec;      \/\/ = 每秒字节数 : dwSamplesPerSec * wBitsPerSample \/ 8$/;"	m	struct:wave_pcm_hdr	file:
+bits_per_sample	ttsdemo.cpp	/^	SR_WORD         bits_per_sample;          \/\/ = 量化比特数: 8 | 16$/;"	m	struct:wave_pcm_hdr	file:
+block_align	ttsdemo.cpp	/^	SR_WORD         block_align;            \/\/ = 每采样点字节数 : wBitsPerSample \/ 8$/;"	m	struct:wave_pcm_hdr	file:
+channels	ttsdemo.cpp	/^	SR_WORD         channels;                       \/\/ = 通道数 : 1$/;"	m	struct:wave_pcm_hdr	file:
+data	ttsdemo.cpp	/^	char            data[4];                        \/\/ = "data";$/;"	m	struct:wave_pcm_hdr	file:
+data_size	ttsdemo.cpp	/^	SR_DWORD        data_size;                \/\/ = 纯数据长度 : FileSize - 44 $/;"	m	struct:wave_pcm_hdr	file:
+default_pcmwavhdr	ttsdemo.cpp	/^struct wave_pcm_hdr default_pcmwavhdr = $/;"	v	typeref:struct:wave_pcm_hdr
+dwFmtSize	ttsdemo.cpp	/^	SR_DWORD        dwFmtSize;                      \/\/ = 下一个结构体的大小 : 16$/;"	m	struct:wave_pcm_hdr	file:
+fmt	ttsdemo.cpp	/^	char            fmt[4];                         \/\/ = "fmt "$/;"	m	struct:wave_pcm_hdr	file:
+format_tag	ttsdemo.cpp	/^	SR_WORD         format_tag;              \/\/ = PCM : 1$/;"	m	struct:wave_pcm_hdr	file:
+main	ttsdemo.cpp	/^int main(int argc, char* argv[])$/;"	f
+riff	ttsdemo.cpp	/^	char            riff[4];                        \/\/ = "RIFF"$/;"	m	struct:wave_pcm_hdr	file:
+samples_per_sec	ttsdemo.cpp	/^	SR_DWORD        samples_per_sec;        \/\/ = 采样率 : 8000 | 6000 | 11025 | 16000$/;"	m	struct:wave_pcm_hdr	file:
+size_8	ttsdemo.cpp	/^	SR_DWORD        size_8;                         \/\/ = FileSize - 8$/;"	m	struct:wave_pcm_hdr	file:
+text_to_speech	ttsdemo.cpp	/^int text_to_speech(const char* src_text ,const char* des_path ,const char* params)$/;"	f
+wave	ttsdemo.cpp	/^	char            wave[4];                        \/\/ = "WAVE"$/;"	m	struct:wave_pcm_hdr	file:
+wave_pcm_hdr	ttsdemo.cpp	/^struct wave_pcm_hdr$/;"	s	file:
